@@ -1,5 +1,7 @@
 module Raijin
 
-# Write your package code here.
+include("function.jl")
+
+export my_f
 
 end

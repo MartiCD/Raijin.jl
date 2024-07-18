@@ -1,6 +1,10 @@
 using Raijin
 using Test
 
+@test Raijin.my_f(2,1) == 5
+
 @testset "Raijin.jl" begin
-    # Write your tests here.
+    # 2x+y
+    @test Raijin.my_f(2,1) == 5
+    @test Raijin.my_f(2,3) == 7
 end
